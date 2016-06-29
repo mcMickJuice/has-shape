@@ -1,0 +1,29 @@
+{
+  "name": "has-shape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "test:watch": "ava --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "dependencies": {
+    "lodash.isarray": "^4.0.0",
+    "lodash.isobject": "^3.0.2"
+  },
+  "ava": {
+    "files": [
+      "spec/**/*.spec.js"
+    ],
+    "source": [
+      "src/**/*.js"
+    ],
+    "concurrency": 5
+  }
+}
